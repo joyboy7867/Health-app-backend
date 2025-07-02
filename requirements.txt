@@ -3,3 +3,4 @@ numpy
 flask
 CORS
 flask_cors
+sklearn
