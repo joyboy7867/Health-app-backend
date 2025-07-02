@@ -2,6 +2,7 @@ from flask import Flask ,request,jsonify
 import pandas as pd
 import pickle
 from flask_cors import CORS
+from sklearn.preprocessing import StandardScaler
 import numpy as np
 app=Flask(__name__)
 CORS(app)
